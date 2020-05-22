@@ -8,7 +8,7 @@ ifeq ($(CXX),g++)
 CXX_FLAGS += -fopenmp -march=native 
 else
 ifeq ($(CXX),clang++)
-CXX_FLAGS += -fopenmp -march=native
+CXX_FLAGS += -march=native
 endif
 endif
 endif
