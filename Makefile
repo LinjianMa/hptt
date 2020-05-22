@@ -1,4 +1,4 @@
-CXX_FLAGS=-O3 -std=c++11 -DNDEBUG
+CXX_FLAGS=-O2 -std=c++11 -DNDEBUG
 INCLUDE_PATH=-I./include/
 
 ifeq ($(CXX),icpc)
