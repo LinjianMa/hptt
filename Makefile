@@ -2,7 +2,7 @@ CXX_FLAGS=-O2 -std=c++11 -DNDEBUG
 INCLUDE_PATH=-I./include/
 
 ifeq ($(CXX),icpc)
-CXX_FLAGS += -qopenmp -xhost 
+CXX_FLAGS += -fopenmp 
 else
 ifeq ($(CXX),g++)
 CXX_FLAGS += -fopenmp -march=native 
